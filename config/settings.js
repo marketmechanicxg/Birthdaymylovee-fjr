@@ -46,14 +46,14 @@ const MUSIC_TRACKS = [
    Nama file harus:  img1.jpeg  img2.jpeg  … img8.jpeg
    Ganti caption (keterangan foto) di setiap baris.               */
 const GALLERY_PHOTOS = [
-  { file: "img1.jpeg", caption: "ngl one smile from you and my whole day just gets so much better." },  // ← GANTI CAPTION
-  { file: "img2.jpeg", caption: "you're literally the reason my heart feels this full, no cap." },
-  { file: "img3.jpeg", caption: "every single sec with you is hands down my fave." },
-  { file: "img4.jpeg", caption: "some people search their whole life for happiness, i just found it in you, fr." },
-  { file: "img5.jpeg", caption: "you turned my whole ordinary life into something this beautiful, idk how." },
-  { file: "img6.jpeg", caption: "my heart genuinely feels safest whenever it's with you." },
-  { file: "img7.jpeg", caption: "if i could relive literally any moment, i'd pick us every single time." },
-  { file: "img8.jpeg", caption: "still my favorite person, like, always and forever." },
+  { file: "img1.jpeg", caption: "jujur, satu senyuman dari kamu aja bikin seluruh hari aku jadi jauh lebih baik." },  // ← GANTI CAPTION
+  { file: "img2.jpeg", caption: "kamu beneran alasan kenapa hati aku terasa sepenuh ini, serius." },
+  { file: "img3.jpeg", caption: "setiap detik bareng kamu itu yang paling aku suka, titik." },
+  { file: "img4.jpeg", caption: "ada orang yang nyari kebahagiaan seumur hidup, aku nemuinnya di kamu, beneran." },
+  { file: "img5.jpeg", caption: "kamu ngubah hidup aku yang biasa aja jadi seindah ini, entah gimana caranya." },
+  { file: "img6.jpeg", caption: "hati aku bener-bener ngerasa paling aman kalau lagi sama kamu." },
+  { file: "img7.jpeg", caption: "kalau aku bisa mengulang momen apa pun, aku bakal milih kita setiap saat." },
+  { file: "img8.jpeg", caption: "tetap orang favorit aku, selalu dan selamanya." },
 ];
 
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -62,7 +62,7 @@ const GALLERY_PHOTOS = [
    Setiap string adalah satu paragraf.
    Bisa ditambah atau dikurangi paragrafnya.                       */
 const LETTER_PARAGRAPHS = [
-"♡ happy birthday, sayangku.",
+"♡ selamat ulang tahun, sayangku.",
 "Selamat ulang tahun, sayang. Nggak kerasa ya, sekarang umur kamu udah bertambah lagi. Semoga di umur yang baru ini, banyak hal baik yang datang ke hidup kamu. Semoga semua yang selama ini kamu usahakan bisa perlahan-lahan tercapai, semoga kamu selalu diberi kesehatan, umur panjang, rezeki yang lancar, dan selalu dalam lindungan Allah di mana pun kamu berada. Aku tahu perjalanan kamu nggak selalu mudah. Ada banyak hal yang harus kamu hadapi, ada rasa capek yang mungkin nggak selalu kamu ceritakan, dan ada banyak hal yang harus kamu korbankan demi masa depan kamu. Makanya, di hari spesial kamu ini, aku cuma pengin kamu tahu kalau aku bangga sama kamu. Bangga karena kamu masih terus berusaha, masih mau berjuang, dan masih melangkah sejauh ini.",
 "Jangan terlalu keras sama diri kamu sendiri, ya, sayang. Kalau capek, istirahat. Kalau lagi banyak pikiran, nggak apa-apa buat berhenti sebentar. Kamu nggak harus selalu kuat dan nggak harus selalu terlihat baik-baik aja. Aku harap kamu bisa menjalani hidup dengan lebih tenang, punya banyak alasan buat bahagia, dan suatu hari nanti bisa menikmati semua hasil dari kerja keras kamu selama ini.",
 "Aku memang nggak bisa selalu ada di samping kamu, tapi aku harap kamu tahu kalau aku selalu ingin melihat kamu berhasil. Aku ingin melihat kamu sampai di titik yang selama ini kamu perjuangkan. Aku ingin mendengar kamu bercerita tentang hal-hal baik yang akhirnya kamu dapatkan setelah sekian lama berusaha. Dan kalau suatu hari nanti kamu berhasil meraih semua impianmu, aku harap kamu nggak lupa sama dirimu yang sekarang, yang sudah berjuang sejauh ini. Semoga nanti kamu bisa tersenyum dan merasa bangga karena kamu berhasil melewati banyak hal yang dulunya terasa berat. Aku juga berharap kita masih punya banyak waktu untuk membuat kenangan bersama. Masih bisa merayakan ulang tahun kamu di tahun-tahun berikutnya, masih bisa tertawa karena hal-hal kecil, masih bisa bercerita tentang keseharian kita, dan masih bisa saling menemani ketika hidup sedang nggak baik-baik aja.",
@@ -71,9 +71,9 @@ const LETTER_PARAGRAPHS = [
 "Kalau Allah mengizinkan kita untuk terus bersama, aku berharap kita bisa tumbuh menjadi dua orang yang lebih baik, yang bisa saling mendukung tanpa saling membatasi, saling menyayangi tanpa melupakan diri sendiri, dan saling menjaga apa yang sudah kita bangun bersama. Aku harap suatu hari nanti kita bisa melihat kembali masa-masa ketika jarak terasa begitu jauh, lalu tersenyum karena kita pernah berusaha melewatinya. Aku harap ada banyak cerita baik yang bisa kita kenang, banyak impian yang berhasil kita capai, dan banyak alasan untuk bersyukur karena kita pernah memilih untuk saling mengenal lebih jauh.",
 "Sekali lagi, selamat ulang tahun, cintaku. Terima kasih sudah bertahan sejauh ini. Terima kasih sudah terus berusaha menjadi dirimu yang sekarang. Aku harap kamu selalu ingat kalau kamu juga pantas bahagia, pantas mendapatkan hal-hal baik, dan pantas bangga sama dirimu sendiri. Aku bangga sama kamu, aku bersyukur kamu ada, dan aku bahagia karena bisa mengenalmu sedekat ini.",
 "Aku nggak tahu akan seperti apa masa depan kita, tapi aku tahu kalau hari ini aku menyayangimu dengan tulus. Aku ingin melihat kamu bahagia, ingin melihat kamu berhasil, dan ingin melihat kamu mendapatkan kehidupan yang selama ini kamu impikan. Semoga di umur yang baru ini, banyak pintu baik yang terbuka buat kamu. Semoga langkahmu selalu dimudahkan, hatimu selalu dikuatkan, dan semoga kamu selalu punya alasan untuk bersyukur atas hidup yang kamu jalani.",
-"Happy birthday, my love.",
-"You're gonna live forever in me. ♡",
-"With all the love I have today, and all the prayers I quietly send for u.",
+"Selamat ulang tahun, cintaku.",
+"Kamu bakal hidup selamanya di dalam aku. ♡",
+"Dengan seluruh cinta yang aku punya hari ini, dan semua doa yang diam-diam aku kirim buat kamu.",
 
 ];
 
@@ -87,27 +87,27 @@ const LETTER_PARAGRAPHS = [
 const MEMORIES = [
   {
     depth: "2m",
-    year:  "Chapter One",
-    title: "where it all started",
-    text:  "that exact moment when everything just clicked, dan tiba-tiba semuanya mulai make so much sense.",
+    year:  "Bab Satu",
+    title: "awal dari semuanya",
+    text:  "momen persis ketika semuanya terasa pas, dan tiba-tiba semuanya mulai masuk akal.",
   },
   {
     depth: "8m",
-    year:  "Chapter Two",
-    title: "the quiet days",
-    text:  "literally cuma kamu, aku, and those lil simple moments yang ternyata ended up meaning everything.",
+    year:  "Bab Dua",
+    title: "hari-hari yang tenang",
+    text:  "cuma ada kamu, aku, dan momen-momen kecil yang sederhana, yang ternyata justru berarti segalanya.",
   },
   {
     depth: "16m",
-    year:  "Chapter Three",
-    title: "through the storms",
-    text:  "we've had our rough patches fr, ada badai dan chaos juga, but somehow kita selalu find our way back to each other.",
+    year:  "Bab Tiga",
+    title: "melewati badai",
+    text:  "kita pernah melewati masa-masa sulit, ada badai dan kekacauan juga, tapi entah gimana kita selalu menemukan jalan pulang satu sama lain.",
   },
   {
     depth: "24m",
-    year:  "Chapter Four",
-    title: "finding the light",
-    text:  "you're genuinely the brightest part of my whole journey, yang selalu bikin everything feels a little lighter even when things get heavy.",
+    year:  "Bab Empat",
+    title: "menemukan cahaya",
+    text:  "kamu bener-bener bagian paling terang dari seluruh perjalanan aku, yang selalu bikin semuanya terasa lebih ringan bahkan ketika keadaan lagi berat.",
   },
 ];
 
@@ -117,12 +117,12 @@ const MEMORIES = [
    icon: wave | shell | star | compass | anchor | heart
    text: isi ucapannya                                            */
 const WISHES = [
-  { icon: "wave",    text: "may this year give you all the calm of the ocean, dan sedalam itu juga hati kamu yang selalu penuh dengan kindness, fr." },
-  { icon: "shell",   text: "hope your days stay this bright, kayak sun yang mantul di atas water, and your nights tetap peaceful seperti tide yang pelan-pelan balik ke laut." },
-  { icon: "star",    text: "may every lil wish kamu pelan-pelan come true, exactly when you need it the most, no cap." },
-  { icon: "compass", text: "wherever this year takes you, i hope kamu selalu find your way back to the people who genuinely care and adore you." },
-  { icon: "anchor",  text: "stay grounded, stay grateful, and tbh tetap jadi kamu yang sekarang — beautiful in your own way, always." },
-  { icon: "heart",   text: "happy birthday istg — cheers buat another year penuh memories yang bakal selalu worth keeping." },
+  { icon: "wave",    text: "semoga tahun ini ngasih kamu semua ketenangan samudra, dan sedalam itu juga hati kamu yang selalu penuh dengan kebaikan." },
+  { icon: "shell",   text: "semoga hari-hari kamu tetap secerah ini, kayak matahari yang mantul di atas air, dan malam-malam kamu tetap tenang seperti ombak yang pelan-pelan balik ke laut." },
+  { icon: "star",    text: "semoga setiap harapan kecil kamu pelan-pelan jadi kenyataan, tepat di saat kamu paling membutuhkannya." },
+  { icon: "compass", text: "ke mana pun tahun ini membawa kamu, semoga kamu selalu menemukan jalan pulang ke orang-orang yang tulus peduli dan menyayangi kamu." },
+  { icon: "anchor",  text: "tetap membumi, tetap bersyukur, dan jujur aja, tetap jadi kamu yang sekarang — indah dengan caramu sendiri, selalu." },
+  { icon: "heart",   text: "selamat ulang tahun, beneran — bersulang buat satu tahun lagi yang penuh kenangan yang pantas disimpan selamanya." },
 ];
 
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -136,7 +136,7 @@ const WISHES = [
    Nomor WA untuk membalas pesan setelah lilin ditiup.
    Gunakan format internasional tanpa tanda + (contoh: 62812...) */
 const WHATSAPP_NUMBER = "6287780401505";   // ← GANTI NOMOR WA YANG ORDER
-const WHATSAPP_MESSAGE = "heyy i just opened the bottle, tysm for making my day so much better! ✨"; // ← GANTI PESAN OTOMATIS
+const WHATSAPP_MESSAGE = "heyy aku baru buka botolnya, makasih banyak udah bikin hari aku jadi jauh lebih baik! ✨"; // ← GANTI PESAN OTOMATIS
 
 window.OCEAN_SETTINGS = {
     recipientName:    String(RECIPIENT_NAME),
